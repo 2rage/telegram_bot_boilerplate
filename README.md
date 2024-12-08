@@ -31,13 +31,14 @@ Ensure you have the following installed:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/telegram-bot-boilerplate.git
+git clone https://github.com/2rage/telegram-bot-boilerplate.git
 cd telegram-bot-boilerplate
 ```
-2. **Install dependencies**:
+2. **Removing Git History**:
 
 ```bash
-poetry install
+rm -rf .git
+git init
 ```
 
 3. **Set up environment variables**:

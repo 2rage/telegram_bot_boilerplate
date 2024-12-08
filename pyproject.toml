@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "telegram-bot-boilerplate"
+name = "your-app-name"
 version = "0.1.0"
-description = "A simple boilerplate for building Telegram bots"
+description = "A new Telegram bot project based on the boilerplate"
 authors = ["2rage <the2rage@icloud.com>"]
 readme = "README.md"
 
