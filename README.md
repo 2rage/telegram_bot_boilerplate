@@ -30,10 +30,14 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
 
+Replace `YOUR-APP-NAME` with your desired project name
+
 ```bash
 git clone https://github.com/2rage/telegram-bot-boilerplate.git
-cd telegram-bot-boilerplate
+mv telegram-bot-boilerplate YOUR-APP-NAME
+cd YOUR-APP-NAME
 ```
+
 2. **Removing Git History**:
 
 ```bash
@@ -42,11 +46,13 @@ git init
 ```
 
 3. **Set up environment variables**:
-    - Create a .env file by copying the example:
-        ```bash
-        cp .env.example .env
-        ```
-    - Edit the ```.env``` file and add your configuration
+- Create a .env file by copying the example:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+- Edit the `.env` file and add your configuration
 
 4. **Run the bot**
 
