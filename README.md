@@ -30,12 +30,12 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
 
-Replace `YOUR-APP-NAME` with your desired project name
+Replace `YOUR_APP_NAME` with your desired project name
 
 ```bash
-git clone https://github.com/2rage/telegram-bot-boilerplate.git
-mv telegram-bot-boilerplate YOUR-APP-NAME
-cd YOUR-APP-NAME
+git clone https://github.com/2rage/telegram_bot_boilerplate.git
+mv telegram_bot_boilerplate YOUR_APP_NAME
+cd YOUR_APP_NAME
 ```
 
 2. **Removing Git History**:
@@ -49,12 +49,18 @@ git init
 - Create a .env file by copying the example:
 
     ```bash
-    cp .env.example .env
+    cp .env.example .env && rm .env.example
     ```
 
 - Edit the `.env` file and add your configuration
 
-4. **Run the bot**
+4. **Install dependencies**:
+
+```bash
+poetry install
+```
+
+5. **Run the bot**
 
 ```bash
 make bot-dev
